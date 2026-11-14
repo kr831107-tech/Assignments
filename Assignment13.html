@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Class Timetable</title>
+
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            text-align: center;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 15px;
+        }
+
+        th {
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Class Timetable</h1>
+
+    <table>
+
+        <tr>
+            <th>Day</th>
+            <th>9 AM - 10 AM</th>
+            <th>10 AM - 11 AM</th>
+            <th>11 AM - 12 PM</th>
+            <th>12 PM - 1 PM</th>
+        </tr>
+
+        <tr>
+            <th>Monday</th>
+            <td>HTML</td>
+            <td>CSS</td>
+            <td rowspan="2">Web Lab</td>
+            <td>Maths</td>
+        </tr>
+
+        <tr>
+            <th>Tuesday</th>
+            <td>Java</td>
+            <td>Python</td>
+            <td>English</td>
+        </tr>
+
+        <tr>
+            <th>Wednesday</th>
+            <td colspan="2">Practical</td>
+            <td>DBMS</td>
+            <td>Computer</td>
+        </tr>
+
+        <tr>
+            <th>Thursday</th>
+            <td>HTML</td>
+            <td>CSS</td>
+            <td>JavaScript</td>
+            <td>Maths</td>
+        </tr>
+
+        <tr>
+            <th>Friday</th>
+            <td>Python</td>
+            <td>DBMS</td>
+            <td colspan="2">Project Work</td>
+        </tr>
+
+    </table>
+
+</body>
+</html>

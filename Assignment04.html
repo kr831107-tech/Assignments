@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Semantic Elements</title>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 20px;
+        }
+
+        header, nav, main, section, footer {
+            padding: 15px;
+            margin: 5px;
+            border: 1px solid black;
+        }
+
+        header {
+            background-color: lightblue;
+        }
+
+        nav {
+            background-color: lightgray;
+        }
+
+        main {
+            background-color: lightyellow;
+        }
+
+        footer {
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Semantic HTML Layout</h1>
+
+    <header>
+        <h2>My Website</h2>
+    </header>
+
+    <nav>
+        <a href="#">Home</a> |
+        <a href="#">About</a> |
+        <a href="#">Contact</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>About Us</h2>
+            <p>Welcome to our website.</p>
+        </section>
+
+        <article>
+            <h2>Latest News</h2>
+            <p>This is an article section.</p>
+        </article>
+
+        <aside>
+            <p>This is additional information.</p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>Copyright & copy; 2026 My Website</p>
+    </footer>
+
+    <h1>Non-Semantic Layout</h1>
+
+    <div style="background-color: lightblue; padding: 15px;">
+        Header using DIV
+    </div>
+
+    <div style="background-color: lightgray; padding: 15px;">
+        Navigation using DIV
+    </div>
+
+    <div style="background-color: lightyellow; padding: 15px;">
+        Main Content using DIV
+    </div>
+
+    <div style="background-color: lightgreen; padding: 15px;">
+        Footer using DIV
+    </div>
+
+</body>
+</html>
