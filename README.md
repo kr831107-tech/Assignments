@@ -98,7 +98,7 @@ Assignments 17 and 18 use `submit.php` as the form submission endpoint. Client-s
 
 **KRISHNA RAI**
 
-GitHub: [Your GitHub Profile](https://github.com/your-username)
+GitHub: https://github.com/kr831107-tech/kr831107-tech.git
 
 ## 📜 License
 
